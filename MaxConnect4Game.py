@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-"""
-Copyright (C) 2016 Chris Conly (chris.conly@uta.edu)
-
-"""
 from copy import copy
 import random
 import sys
