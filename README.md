@@ -29,17 +29,17 @@ We designed this function to calculate the score based on the current state of t
 
 In the interactive mode, the game runs from the command line with the following arguments:
 
-_python maxconnect4 interactive [input file] [computer-next/human-next] [depth]_
+_python maxconnect4.py interactive [input file] [computer-next/human-next] [depth]_
 
 For example,
 
-_python maxconnect4 interactive input1.txt computer-next 7_
+_python maxconnect4.py interactive input1.txt computer-next 7_
 
 One-move mode is to make it easy for programs to compete against each other and communicate
 their moves to each other using text files. The one-move mode is invoked as follows:
 
-_python maxconnect4 one-move [input file] [output file] [depth]_
+_python maxconnect4.py one-move [input file] [output file] [depth]_
 
 For example,
 
-_python maxconnect4 one-move red next.txt green next.txt 5_
+_python maxconnect4.py one-move red next.txt green next.txt 5_
